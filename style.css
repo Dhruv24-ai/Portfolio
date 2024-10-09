@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  /* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1db954 50%, #121212 50%);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #fff;
+  color: #1db954;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero .btn:hover {
+  background-color: #1db954;
+  color: white;
+}
+  
+ 
+  
+  /* About Section */
+  .about-section {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Education Section */
+  .education-section {
+    background-color: #1db954;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .education-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .education-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .education-item {
+    text-align: center;
+    width: 45%;
+  }
+  
+  .education-item h3 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    text-align: center;
+    color: #f4f4f4;
+  }
+  /* Education Section */
+.education-section {
+  background-color: #1db954;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+.education-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column; /* This will stack the items vertically */
+  align-items: center;    /* This centers the items horizontally */
+}
+
+.education-item {
+  width: 60%; /* Reduce width to center better */
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  font-size: 1.8rem;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: #f4f4f4;
+}
+
+/* Reduce image size in education section */
+.education-item img {
+  width: 50px; /* Set the image size (adjust as needed) */
+  height: 10px;
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+  
+  /* Skills Section */
+  .skills-section {
+    background-color: #121212;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .skills-section h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .skills-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .skill-item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Projects Section */
+.projects-section {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column; /* Stacking projects vertically */
+  align-items: center;     /* Centering the project items horizontally */
+}
+
+.project-item {
+  width: 60%;              /* Adjust the width as per your need */
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;     /* Space between project items */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+  font-size: 1.5rem;
+}
+
+.project-item p {
+  font-size: 1rem;
+  color: #333;
+}
+
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #1db954;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Resume Download Button */
+.resume-download {
+  margin: 20px 0;
+}
+
+.resume-download .btn {
+  background-color: #fff;
+  color: #1db954;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.resume-download .btn:hover {
+  background-color: #1db954;
+  color: white;
+}
+
